@@ -42,13 +42,13 @@ Coronavirus disease (COVID-19) has profoundly impacted global public health and 
 ## **Models and Methodologies**
 
 ### **XGBoost**  
-- **Purpose:** Predict daily case changes per 100,000 population.  
+- **Purpose:**  Quickly predict trends of daily case changes per 100,000 population.  
 - **Features:** Incorporates epidemiological patterns and uses rolling windows for model retraining.  
 - **Performance:** Achieved \(R^2 \geq 0.85\) for short-term predictions, declining to ~0.5 for long-term forecasts.  
 - **Validation:** Used Optuna for hyperparameter tuning and time-series cross-validation.  
 
 ### **Spatial-Temporal Gaussian Process**  
-- **Purpose:** Predict daily case increases for California counties.  
+- **Purpose:**  Accurately predict daily change in cases.    
 - **Kernel Design:** Combines spatial (RBF kernel) and temporal (autoregressive components) to model dependencies.  
 - **Performance:** High accuracy for 30-day forecasts with metrics such as MAE = 0.048, RMSE = 0.0034, and \(R^2\) ≈ 0.999999.  
 
@@ -154,11 +154,11 @@ Access the app [here](https://jxygan.shinyapps.io/final_plot_app/) to:
 
 ### Sample Outputs:  
 - **XGBoost Predictions:**  
-![Visualization of COVID-19 Predictions](./data_cleaning_processing_and_modeling_for_XGBoost_and_SARIMAX_method/xgboost/visualization/Autauga.png)
+![Visualization of COVID-19 Predictions](https://github.com/HaoYu2024/COVID-19-PREDICTION-PROJECT/blob/main/data%20cleaning%2C%20processing%20and%20modeling%20for%20XGBoost%20and%20Sarimax%20method/xgboost/visualization/Autauga.png)
 
 
 - **ST-GP Predictions:**  
-![ST-GP Plot](./data_cleaning_processing_and_modeling_for_Spatial_temporal_Gaussian_Process/plumas.png)
+![ST-GP Plot](https://github.com/HaoYu2024/COVID-19-PREDICTION-PROJECT/blob/main/data%20cleaning%2C%20processing%20and%20modeling%20for%20Spatial-temporal%20Gaussian%20Process/plumas.png)
 
 
 ---
