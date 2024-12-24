@@ -154,10 +154,12 @@ Access the app [here](https://jxygan.shinyapps.io/final_plot_app/) to:
 
 ### Sample Outputs:  
 - **XGBoost Predictions:**  
-  ![Visualization of COVID-19 Predictions](./data cleaning, processing and modeling for XGBoost and Sarimax method/xgboost/visualization/Autauga.png)
+![Visualization of COVID-19 Predictions](./data_cleaning_processing_and_modeling_for_XGBoost_and_SARIMAX_method/xgboost/visualization/Autauga.png)
+
 
 - **ST-GP Predictions:**  
-  ![ST-GP Plot](./data cleaning, processing and modeling for Spatial-temporal Gaussian Process/plumas.png)
+![ST-GP Plot](./data_cleaning_processing_and_modeling_for_Spatial_temporal_Gaussian_Process/plumas.png)
+
 
 ---
 ### **Evaluation and Results**
